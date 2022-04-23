@@ -4,9 +4,6 @@ import { ListItem } from "react-native-elements";
 import { connect } from "react-redux";
 import { Loading } from "./LoadingComponent";
 import { baseUrl } from "../shared/baseUrl";
-// comment
-// comment2
-// comment3
 
 const mapStateToProps = (state) => {
   return {
@@ -14,10 +11,6 @@ const mapStateToProps = (state) => {
     favorites: state.favorites,
   };
 };
-
-//comment4
-//comment5
-//comment6
 
 class Favorites extends Component {
   static navigationOptions = {
